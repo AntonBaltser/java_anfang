@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.print("Hello world! ");
         System.out.println("Hello world!");
-        //числовые переменные
+    
         byte num = 25; //переменная для маленьких размеров памяти(числа) 8 bit (1B) (от -128 до 127)
         short num_1 = 32767;  // числа 16 bit (2B)(от -32,768 до 32,767 или -32768 до 32767)
         int num_2 = 922337203; // числа от -2^31 до 2^31-1 (32 bit (4B)) или  -2147483648 до 2147483647
