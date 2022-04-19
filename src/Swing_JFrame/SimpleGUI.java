@@ -5,12 +5,12 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class SimpleGUI extends JFrame{
-    private JButton button = new JButton("Press");
-    private JTextField input = new JTextField("", 5);
-    private JLabel label = new JLabel("Input: ");
-    private JRadioButton radio1 = new JRadioButton("Select this");
-    private JRadioButton radio2 = new JRadioButton("Select that");
-    private JCheckBox check = new JCheckBox("Check", false);
+    private final JButton button = new JButton("Press");
+    private final JTextField input = new JTextField("", 5);
+    private final JLabel label = new JLabel("Input: ");
+    private final JRadioButton radio1 = new JRadioButton("Select this");
+    private final JRadioButton radio2 = new JRadioButton("Select that");
+    private final JCheckBox check = new JCheckBox("Check", false);
 
     public SimpleGUI () {
         super("Simple Example");
