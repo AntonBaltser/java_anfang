@@ -1,5 +1,4 @@
 package oop_basics;
-
 public class Main {
     public static void main (String[] args) {
         Person gochacha = new Person(120, "Gochacha");
@@ -11,5 +10,12 @@ public class Main {
 
         Person dima = new Person("Dima");
         System.out.println(dima.name);
+        System.out.println("");
+
+        Student freshman = new Student(76, "Viktor", 2);
+        freshman.tell();
+
+        Student fresh = new Student(190, "Petruxa", 4);
+        fresh.tell();
     }
 }
