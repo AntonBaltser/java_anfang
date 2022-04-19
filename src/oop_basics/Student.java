@@ -1,5 +1,4 @@
 package oop_basics;
-
 public class Student extends Person {
     int course = 1 ;
     public Student ( int height, String name, int course ) {
